@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Pure CSS Responsive Slider</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+<link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<!--
+Slider Scaling Options, comment/uncomment the desired opening tag
+Cover: Fill parent element
+Fixed: Predefined width and height, 600x400 for demo
+Propotional: Scales to match parent width; options for 4x3, 5x4, and 16x9, and 1.35x1
+-->
+<div class="slider slider--cover">
+<!-- <div class="slider slider--fixed"> -->
+<!-- <div class="slider slider--proportional slider--proportional-16x9"> -->
+	<div class="slider__inner">
+		<input checked type="radio" name="slider__radiobox" id="slider__radiobox--1" class="slider__radiobox slider__radiobox--1"><label for="slider__radiobox--1" class="slider__radiobox-label slider__radiobox-label--item slider__radiobox-label--item-1"></label><label for="slider__radiobox--4" class="slider__radiobox-label slider__radiobox-label--prev slider__radiobox-label--prev-4"></label><label for="slider__radiobox--2" class="slider__radiobox-label slider__radiobox-label--next slider__radiobox-label--next-2"></label>
+		<input         type="radio" name="slider__radiobox" id="slider__radiobox--2" class="slider__radiobox slider__radiobox--2"><label for="slider__radiobox--2" class="slider__radiobox-label slider__radiobox-label--item slider__radiobox-label--item-2"></label><label for="slider__radiobox--1" class="slider__radiobox-label slider__radiobox-label--prev slider__radiobox-label--prev-1"></label><label for="slider__radiobox--3" class="slider__radiobox-label slider__radiobox-label--next slider__radiobox-label--next-3"></label>
+		<input         type="radio" name="slider__radiobox" id="slider__radiobox--3" class="slider__radiobox slider__radiobox--3"><label for="slider__radiobox--3" class="slider__radiobox-label slider__radiobox-label--item slider__radiobox-label--item-3"></label><label for="slider__radiobox--2" class="slider__radiobox-label slider__radiobox-label--prev slider__radiobox-label--prev-2"></label><label for="slider__radiobox--4" class="slider__radiobox-label slider__radiobox-label--next slider__radiobox-label--next-4"></label>
+		<input         type="radio" name="slider__radiobox" id="slider__radiobox--4" class="slider__radiobox slider__radiobox--4"><label for="slider__radiobox--4" class="slider__radiobox-label slider__radiobox-label--item slider__radiobox-label--item-4"></label><label for="slider__radiobox--3" class="slider__radiobox-label slider__radiobox-label--prev slider__radiobox-label--prev-3"></label><label for="slider__radiobox--1" class="slider__radiobox-label slider__radiobox-label--next slider__radiobox-label--next-1"></label>
+		<div class="slider__slides">
+			<div class="slider__slide slider__slide--1"><img alt="Placeholder 940x470" src="../image/carousel.png"></div>
+		<!-- 	<div class="slider__slide slider__slide--2"><img alt="Placeholder 1200x600" src="https://via.placeholder.com/1200x600?text=1200x600"></div>
+			<div class="slider__slide slider__slide--3"><img alt="Placeholder 300x150" src="https://via.placeholder.com/300x150?text=300x150"></div>
+			<div class="slider__slide slider__slide--4"><img alt="Placeholder 800x400" src="https://via.placeholder.com/800x400?text=800x400"></div> -->
+		</div>
+	</div>
+</section>
+<!-- partial -->
+  
+</body>
+</html>

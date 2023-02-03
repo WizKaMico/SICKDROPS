@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Responsive HTML &amp; CSS Form</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+
+<head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Register For Shifalari</title>
+        <link href='https://fonts.googleapis.com/css?family=Nunito:400,300' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="main.css">
+    </head>
+    <body>
+	
+	<h1><a href="http://designvkp.com/create-responsive-forms-using-html-css/" rel="dofollow" target="_blank">Create Responsive HTML CSS Form</a></h1>
+
+      <form action="takeaction.php" method="post">
+      
+        <h1>Sifalri 2015</h1>
+        
+        <fieldset>
+          <legend><span class="number">1</span>Enter Your Details</legend>
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="user_name">
+		  
+		  <label for="universityname">University/Collage:</label>
+          <input type="email" id="mail" name="user_email">
+		  
+		  <label for="cityname">City Name:</label>
+          <input type="email" id="mail" name="user_email">
+          
+          <label for="mail">Email:</label>
+          <input type="email" id="mail" name="user_email">
+          
+          <label for="contactnumber">Contact No:</label>
+          <input type="text" id="contactno" name="user_number">
+          
+        </fieldset>
+        
+        <fieldset>
+          <legend><span class="number">2</span>Your profile Information</legend>
+		  <br></br>
+          <label>You Are:</label>
+          <input type="radio" name="howmuch" value="male">Single<br>
+		  <input type="radio" name="howmuch" value="female">Team</br>
+		  <br></br>
+          <label for="bio">Detailed Information On What You Want To Perform:</label>
+          <textarea id="bio" name="user_bio"></textarea>
+        </fieldset>
+        <fieldset>
+        <label for="event_select_for">Select Event:</label>
+        <select id="event_select" name="memeber_job">
+          <optgroup label="Single Member Events">
+            <option value="sdance">Solo Dancing</option>
+            <option value="code">Coding</option>
+            <option value="sbr">Slow Bike Race</option>
+            <option value="chess">Chess</option>
+            <option value="carrom">Carrom Board</option>
+          </optgroup>
+          <optgroup label="Group Events">
+            <option value="gdance">Solo Dancing</option>
+            <option value="rm">Rangoli Making</option>
+            <option value="cs">Lan Gaming 1 Counter Strike 1.6</option>
+            <option value="nfs">NFS Most Wanted 2005</option> 
+          </optgroup>          
+        </select>
+        </fieldset>
+        <button type="submit">Submit</button>
+      </form>
+      
+    </body>
+</html>
+<!-- partial -->
+  
+</body>
+</html>
